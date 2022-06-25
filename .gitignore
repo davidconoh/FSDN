@@ -1,3 +1,5 @@
+.gitignore
+
 .vscode
 __pycache__
 venv
@@ -13,3 +15,5 @@ ehthumbs.db
 Thumbs.db
 
 .github/**
+
+projects/**/Udacity Reviews.pdf
