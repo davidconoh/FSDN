@@ -240,7 +240,7 @@ def show_venue(venue_id):
       data['past_shows'] = list(filter(filter_shows_past, data['all_shows']))
       data['past_shows_count'] = len(data['past_shows'])
       data['upcoming_shows'] = list(filter(filter_shows_upcoming, data['all_shows']))
-      data['upcoming_shows_count'] = len(data['upcoming_shows'])
+      data['upcoming_shows_num'] = len(data['upcoming_shows'])
   except:
     error = True
     flash(message='An error occured getting venue details', category='warning')
@@ -361,7 +361,7 @@ def show_artist(artist_id):
       data['past_shows'] = list(filter(filter_shows_past, data['all_shows']))
       data['past_shows_count'] = len(data['past_shows'])
       data['upcoming_shows'] = list(filter(filter_shows_upcoming, data['all_shows']))
-      data['upcoming_shows_count'] = len(data['upcoming_shows'])
+      data['upcoming_shows_num'] = len(data['upcoming_hows'])
   except:
     error = True
     flash(message='An error occured getting artist details', category='warning')
