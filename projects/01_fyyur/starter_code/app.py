@@ -14,7 +14,8 @@ from logging import Formatter, FileHandler
 from flask_wtf import Form
 from forms import *
 import sys
-# from utils import  filter_shows_past, filter_shows_upcoming
+from utils import  filter_shows_past, filter_shows_upcoming
+
 #----------------------------------------------------------------------------#
 # App Config.
 #----------------------------------------------------------------------------#
